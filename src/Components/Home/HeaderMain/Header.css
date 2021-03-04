@@ -1,0 +1,7 @@
+.Header{
+    background-image: url(../../../resources/bannerbackground.png);
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat:  no-repeat;
+}
