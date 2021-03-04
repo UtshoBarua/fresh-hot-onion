@@ -1,27 +1,27 @@
 import React from 'react';
-import navCss from './Navbar.css'
+import'./Navbar.css'
+import Logo from "../../../resources/logo2.png"
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 const Navbar = () => {
     return (
-        <div class='nav-main' >
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+        <div className='nav-main' >
+            <nav class="navbar navbar-expand-lg navbar-light">
+        <img className='navLogo' src={Logo} alt=""/>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+    <ul class="navbar-nav ms-auto">
+     
+      <li className="ms-2">
+          <ShoppingCartIcon/>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
+      <li class=" ms-2">
+        <a class="nav-link" href="#">login</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
+     <li class=" ms-2">
+     <button className="btn btn-danger">sign up</button>
+     </li>
     </ul>
   </div>
 </nav>

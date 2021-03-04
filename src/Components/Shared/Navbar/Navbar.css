@@ -1,3 +1,8 @@
 .nav-main{
-    margin-left: 50px ;
+   text-align: center;
+   padding: 25px;
+   margin-left: 100px;
+}
+.navLogo{
+    width: 10%;
 }
