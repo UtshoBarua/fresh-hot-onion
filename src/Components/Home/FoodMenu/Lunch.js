@@ -1,10 +1,11 @@
 import React from 'react';
 
-const Breakfast = (props) => {
-    const {id, picture, first_name, last_name} = props.breakfast;
-
+const Lunch = (props) => {
+    const {id, first_name, last_name, picture} = props.lunch
     return (
-        <div className="col-md-4">
+        
+            <div className="col-md-4">  
+            <p>this is lunch</p>
             <div className="d-flex justify-content-center">
             <img style={{width: "40%"}} src={picture} alt=""/>
             </div>
@@ -16,7 +17,8 @@ const Breakfast = (props) => {
                 </div>
             </div>
         </div>
+        
     );
 };
 
-export default Breakfast;
+export default Lunch;
